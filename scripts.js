@@ -1,7 +1,8 @@
 function Check()
 {
     var age= document.getElementById("exampleFormControlTextarea1").value;
-    if(age>=18)
+    var nationality= document.getElementById("exampleFormControl").value;
+    if(age>=18 && nationality=="indian")
     {
         window.alert("Eligible for vote.");
     }
